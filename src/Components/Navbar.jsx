@@ -11,7 +11,7 @@ function Navbar() {
                         <NavLink to="/home">Home</NavLink>
                     </li>
                     <li className="Nav-item">
-                        <NavLink to="/Packages">Packages</NavLink>
+                        <NavLink to="/Packages">Services</NavLink>
                     </li>
                     <li className="Nav-item">
                         <NavLink to="/Remedies">Traditional Remedies</NavLink>
@@ -20,7 +20,7 @@ function Navbar() {
                         <NavLink to="/Abortion">Abortion & Miscarriage</NavLink>
                     </li>
                     <li className="Nav-item">
-                        <NavLink to="/Contact">Contact Me!</NavLink>
+                        <NavLink to="/Contact">Contact Me</NavLink>
                     </li>
                 </ul>
             </div>

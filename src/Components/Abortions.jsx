@@ -1,7 +1,7 @@
 import React from 'react';
-import '../StylePage/Remedies.css';
+import '../StylePage/Abortions.css';
 
-function Remedies() {
+function Abortions() {
 
     return (
         <div className="Remedies">
@@ -30,4 +30,4 @@ function Remedies() {
     );
 }
 
-export default Remedies;
+export default Abortions;
