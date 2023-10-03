@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom'; // Import Routes and Route from react-router-dom
+import { Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar.jsx';
 import Home from './Components/Home.jsx';
 import Packages from './Components/Packages.jsx';
@@ -21,9 +21,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/packages" element={<Packages />} />
         <Route path="/remedies" element={<Remedies />} />
-        <Route path="/abortions" element={<Remedies />} />
         <Route path="/abortions" element={<Abortions />} />
-
       </Routes>
     </div>
   );
