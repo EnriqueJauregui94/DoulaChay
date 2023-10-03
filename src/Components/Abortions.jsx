@@ -19,7 +19,7 @@ function Abortions() {
                     <ul>
                         <li>Accompaniment during appointments</li>
                         <li>Care at home during medical abortions</li>
-                        <li>Traditional aftercare treatments (<Link to="/remedies">see Traditional Remedies)</Link>
+                        <li>Traditional aftercare treatments (<Link to="/remedies">see Traditional Remedies</Link>)
                         </li>
                         <li>Ceremony</li>
                         <li>Grief processing program</li>
