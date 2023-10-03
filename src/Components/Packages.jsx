@@ -51,7 +51,7 @@ function Packages() {
                         Clients may take advantage of the following offerings during postpartum visits:
                     </p>
                     <ul className="Pack-List">
-                        <li>Traditional remedies to support emotional and physical recovery (See next card)</li>
+                        <li>Traditional remedies to support emotional and physical recovery</li>
                         <li>Birth processing support</li>
                         <li>Basic newborn care</li>
                         <li>Peer breastfeeding support</li>

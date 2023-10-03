@@ -9,6 +9,10 @@ body {
     align-items: center;
 }
 
+.Home-container {
+    padding: 0px;
+}
+
 .Home {
     border: solid;
     border-color: purple;

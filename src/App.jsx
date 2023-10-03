@@ -5,6 +5,8 @@ import Home from './Components/Home.jsx';
 import Packages from './Components/Packages.jsx';
 import Remedies from './Components/Remedies.jsx';
 import Abortions from './Components/Abortions.jsx';
+import Contact from './Components/Contact.jsx';
+import './StylePage/Contact.css';
 import './StylePage/Abortions.css';
 import './StylePage/Remedies.css';
 import './StylePage/Packages.css';
@@ -22,6 +24,8 @@ function App() {
         <Route path="/packages" element={<Packages />} />
         <Route path="/remedies" element={<Remedies />} />
         <Route path="/abortions" element={<Abortions />} />
+        <Route path="/contact" element={<Contact />} />
+
       </Routes>
     </div>
   );
