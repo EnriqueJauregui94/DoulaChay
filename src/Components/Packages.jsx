@@ -6,9 +6,8 @@ function Packages() {
         <div className="flex-gap">
             <div className="package-container">
                 <div className="package1 package-box">
-                    <h1>Package #1</h1>
-                    <h2>Birth and Postpartum Doula
-                    </h2>
+                    <div className='h1'><h1>Package #1</h1></div>
+                    <h2>Birth and Postpartum Doula</h2>
                     <br></br>
                     <ul className="Pack-List">
                         <li>2-3 prenatal visits</li>

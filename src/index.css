@@ -19,6 +19,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -47,9 +48,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -60,10 +63,27 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
+}
+
+/* Styles for small screens (e.g., phones) */
+@media (max-width: 768px) {
+  /* Your CSS rules for small screens go here */
+}
+
+/* Styles for medium screens (e.g., tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Your CSS rules for medium screens go here */
+}
+
+/* Styles for large screens (e.g., desktops) */
+@media (min-width: 1025px) {
+  /* Your CSS rules for large screens go here */
 }

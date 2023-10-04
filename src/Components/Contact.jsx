@@ -28,11 +28,11 @@ function Contact() {
                 </select>
 
                 <label htmlFor="subject">Message:</label>
-                <textarea id="subject" name="subject" placeholder="Write your message here :)" style={{ height: '200px' }}></textarea>
+                <textarea id="subject" name="subject" placeholder="Write your message here :)" style={{ height: '100px', width: '100%' }}></textarea>
 
-
-                <input type="submit" value="Submit" className="SubmitButton" />
-
+                <div className="SubmitButton">
+                    <input type="submit" value="Submit" className="SubmitButton" />
+                </div>
             </form>
         </div>
     )

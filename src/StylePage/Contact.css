@@ -1,7 +1,7 @@
 .container {
+    text-align: left;
     border: solid;
     border-color: purple;
-    text-align: left;
     color: rgb(0, 0, 0);
     border-radius: 5px;
     background-color: rgb(246, 199, 255);
@@ -11,6 +11,7 @@
 input[type=text],
 select,
 textarea {
+    text-align: left;
     color: black;
     background-color: white;
     width: 100%;
@@ -28,7 +29,7 @@ textarea {
     font-size: 16px;
     background-color: purple;
     color: white;
-    padding: 0;
+    padding: 1px;
     border: solid;
     border-color: black;
     border-radius: 2px;
@@ -41,4 +42,148 @@ textarea {
 
 .SubmitButton:hover {
     background-color: rgb(246, 199, 255);
+}
+
+/* Styles for small screens (e.g., phones) */
+@media (max-width: 768px) {
+    .container {
+        text-align: left;
+        border: solid;
+        border-color: purple;
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+        background-color: rgb(246, 199, 255);
+        padding: 20px;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+        text-align: left;
+        color: black;
+        background-color: white;
+        width: 50%;
+        padding: 12px;
+        border: 1px solid purple;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    .SubmitButton {
+        font-size: 16px;
+        background-color: purple;
+        color: white;
+        padding: 1px;
+        border: solid;
+        border-color: black;
+        border-radius: 2px;
+        cursor: pointer;
+        border: solid;
+        width: 100px;
+        height: 35px;
+        margin: 0 auto;
+    }
+
+    .SubmitButton:hover {
+        background-color: rgb(246, 199, 255);
+    }
+}
+
+/* Styles for medium screens (e.g., tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        text-align: left;
+        border: solid;
+        border-color: purple;
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+        background-color: rgb(246, 199, 255);
+        padding: 20px;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+        text-align: left;
+        color: black;
+        background-color: white;
+        width: 100%;
+        padding: 12px;
+        border: 1px solid purple;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    .SubmitButton {
+        font-size: 16px;
+        background-color: purple;
+        color: white;
+        padding: 1px;
+        border: solid;
+        border-color: black;
+        border-radius: 2px;
+        cursor: pointer;
+        border: solid;
+        width: 100px;
+        height: 35px;
+        margin: 0 auto;
+    }
+
+    .SubmitButton:hover {
+        background-color: rgb(246, 199, 255);
+    }
+}
+
+/* Styles for large screens (e.g., laptops/desktops) */
+@media (min-width: 1025px) {
+    .container {
+        text-align: left;
+        border: solid;
+        border-color: purple;
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+        background-color: rgb(246, 199, 255);
+        padding: 20px;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+        text-align: left;
+        color: black;
+        background-color: white;
+        width: 100%;
+        padding: 12px;
+        border: 1px solid purple;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    .SubmitButton {
+        font-size: 16px;
+        background-color: purple;
+        color: white;
+        padding: 1px;
+        border: solid;
+        border-color: black;
+        border-radius: 2px;
+        cursor: pointer;
+        border: solid;
+        width: 100px;
+        height: 35px;
+        margin: 0 auto;
+    }
+
+    .SubmitButton:hover {
+        background-color: rgb(246, 199, 255);
+    }
 }
