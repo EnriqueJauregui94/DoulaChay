@@ -23,12 +23,16 @@ function Contact() {
                     <option value="package#1">Package #1</option>
                     <option value="package#2">Package #2</option>
                     <option value="package#3">Package #3</option>
+                    <option value="question">Question?</option>
+
                 </select>
 
                 <label htmlFor="subject">Message:</label>
                 <textarea id="subject" name="subject" placeholder="Write your message here :)" style={{ height: '200px' }}></textarea>
 
-                <input type="submit" value="Submit" />
+
+                <input type="submit" value="Submit" className="SubmitButton" />
+
             </form>
         </div>
     )

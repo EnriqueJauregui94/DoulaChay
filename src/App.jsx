@@ -20,6 +20,7 @@ function App() {
     <div>
       <Navbar />
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/packages" element={<Packages />} />
         <Route path="/remedies" element={<Remedies />} />
