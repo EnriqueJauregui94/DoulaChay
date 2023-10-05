@@ -10,11 +10,12 @@ body {
 }
 
 .Home-container {
-    padding: 0px;
+    padding: 5px;
 }
 
 .Home {
     border: solid;
+    border-radius: 50px;
     border-color: purple;
     display: flex;
     flex-direction: column;
@@ -30,12 +31,9 @@ body {
 
 .center-content {
     text-align: center;
-    /* Center text within the container */
 }
 
 .Home-Image {
-    border: solid;
-    border-color: purple;
     display: flex;
     align-items: center;
     width: 100%;
@@ -45,8 +43,6 @@ body {
 
 .text {
     width: 100%;
-    border: solid;
-    border-color: purple;
     text-align: center;
     font-size: 20px;
     color: black !important;
@@ -54,7 +50,7 @@ body {
 
 
 .h1 {
-    padding-top: 20px;
+    padding-top: 5px;
     width: 100%;
     text-align: center;
     font-size: 14px;
@@ -68,188 +64,5 @@ body {
     font-size: 24px;
     color: rgb(0, 0, 0);
     line-height: 5-px;
-    /* Adjust the line-height to move the text up */
 
-}
-
-/* Styles for small screens (e.g., phones) */
-@media (max-width: 768px) {
-    body {
-        background-size: cover;
-        /* Adjust background size for smaller screens */
-    }
-
-    .Home {
-        width: 90%;
-        /* Adjust container width for smaller screens */
-    }
-
-    .text {
-        font-size: 16px;
-        /* Adjust text size for smaller screens */
-    }
-
-    .h1 {
-        font-size: 12px;
-        /* Adjust text size for smaller screens */
-    }
-
-    .h2 {
-        font-size: 20px;
-        /* Adjust text size for smaller screens */
-    }
-}
-
-/* Styles for medium screens (e.g., tablets) */
-@media (min-width: 769px) and (max-width: 1024px) {
-    body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        background-image: url("https://images.squarespace-cdn.com/content/v1/633243a031267f2673b727da/1664241737793-J66RRGH1J1WBSRWGSKXX/6235B4DD-40E7-4110-963D-615369DA3491.jpeg");
-        background-size: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .Home-container {
-        padding: 0px;
-    }
-
-    .Home {
-        border: solid;
-        border-color: purple;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        align-items: center;
-        text-align: center;
-        width: 60%;
-        margin: 0 auto;
-        background-color: rgb(246, 199, 255);
-
-    }
-
-    .center-content {
-        text-align: center;
-        /* Center text within the container */
-    }
-
-    .Home-Image {
-        border: solid;
-        border-color: purple;
-        display: flex;
-        align-items: center;
-        width: 100%;
-        justify-content: flex-start;
-    }
-
-
-    .text {
-        width: 100%;
-        border: solid;
-        border-color: purple;
-        text-align: center;
-        font-size: 20px;
-        color: black !important;
-    }
-
-
-    .h1 {
-        padding-top: 20px;
-        width: 100%;
-        text-align: center;
-        font-size: 14px;
-        color: rgb(0, 0, 0) !important;
-    }
-
-    .h2 {
-        height: 50px;
-        width: 100%;
-        text-align: center;
-        font-size: 24px;
-        color: rgb(0, 0, 0);
-        line-height: 5-px;
-        /* Adjust the line-height to move the text up */
-
-    }
-}
-
-/* Styles for large screens (e.g., laptops/desktops) */
-@media (min-width: 1025px) {
-    body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        background-image: url("https://images.squarespace-cdn.com/content/v1/633243a031267f2673b727da/1664241737793-J66RRGH1J1WBSRWGSKXX/6235B4DD-40E7-4110-963D-615369DA3491.jpeg");
-        background-size: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .Home-container {
-        padding: 0px;
-    }
-
-    .Home {
-        border: solid;
-        border-color: purple;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        align-items: center;
-        text-align: center;
-        width: 60%;
-        margin: 0 auto;
-        background-color: rgb(246, 199, 255);
-
-    }
-
-    .center-content {
-        text-align: center;
-        /* Center text within the container */
-    }
-
-    .Home-Image {
-        border: solid;
-        border-color: purple;
-        display: flex;
-        align-items: center;
-        width: 100%;
-        justify-content: flex-start;
-    }
-
-
-    .text {
-        width: 100%;
-        border: solid;
-        border-color: purple;
-        text-align: center;
-        font-size: 20px;
-        color: black !important;
-    }
-
-
-    .h1 {
-        padding-top: 20px;
-        width: 100%;
-        text-align: center;
-        font-size: 14px;
-        color: rgb(0, 0, 0) !important;
-    }
-
-    .h2 {
-        height: 50px;
-        width: 100%;
-        text-align: center;
-        font-size: 24px;
-        color: rgb(0, 0, 0);
-        line-height: 5-px;
-        /* Adjust the line-height to move the text up */
-
-    }
 }

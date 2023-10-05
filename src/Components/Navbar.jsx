@@ -17,7 +17,7 @@ function Navbar() {
                         <NavLink to="/Remedies">Traditional Remedies</NavLink>
                     </li>
                     <li className="Nav-item">
-                        <NavLink to="/Abortions">Abortion & Miscarriage</NavLink>
+                        <NavLink to="/Abortions">Abortions & Miscarriages</NavLink>
                     </li>
                     <li className="Nav-item">
                         <NavLink to="/Contact">Contact Me</NavLink>
