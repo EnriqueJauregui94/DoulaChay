@@ -1,11 +1,16 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../StylePage/Navbar.css';
+import logo from './Images/logo.png';
+
 
 function Navbar() {
     return (
         <nav id="Navbar">
             <div className="Navbar-Container">
+                <div className="Nav-Logo">
+                    <img src={logo} alt="Logo" />
+                </div>
                 <ul className="Nav-list">
                     <li className="Nav-item">
                         <NavLink to="/home">Home</NavLink>
@@ -24,7 +29,7 @@ function Navbar() {
                     </li>
                 </ul>
             </div>
-        </nav>
+        </nav >
     );
 }
 

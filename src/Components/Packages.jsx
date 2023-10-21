@@ -1,13 +1,22 @@
 import React from 'react';
 import '../StylePage/Packages.css';
+import birth from '../Components/Images/birth.png';
+import birth2 from '../Components/Images/birth2.png';
+import birth3 from '../Components/Images/birth3.png';
+
 
 function Packages() {
     return (
         <div className="flex-gap">
             <div className="package-container">
                 <div className="package1 package-box">
-                    <div className='h1'><h1>Package #1</h1></div>
-                    <h2>Birth and Postpartum Doula</h2>
+
+                    <img
+                        src={birth}
+                        alt="birth-image"
+                        className="birth"
+                    />
+
                     <br></br>
                     <ul className="Pack-List">
                         <li>2-3 prenatal visits</li>
@@ -20,9 +29,15 @@ function Packages() {
                 </div>
 
                 <div className="package2 package-box">
-                    <h1>Package #2</h1>
-                    <h2>Birth Doula
-                    </h2>
+
+                    <img
+                        src={birth2}
+                        alt="birth-image"
+                        className="birth"
+                    />
+
+
+
                     <br></br>
                     <ul className="Pack-List">
                         <li>2-3 prenatal visits</li>
@@ -34,9 +49,15 @@ function Packages() {
                     </ul>
                 </div>
                 <div className="package3 package-box">
-                    <h1>Package #3</h1>
-                    <h2>Postpartum Doula
-                    </h2>
+
+
+                    <img
+                        src={birth3}
+                        alt="birth-image"
+                        className="birth"
+                    />
+
+
                     <br></br>
                     <ul className="Pack-List">
                         <li>1 postpartum planning meeting (completed before birth)</li>

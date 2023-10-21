@@ -1,6 +1,9 @@
 import React from 'react';
 import '../StylePage/Home.css';
 import Chay1 from './Images/Chay1.jpeg';
+import Chay from './Images/Chay.jpg';
+import Chayy from './Images/Chayy.jpg';
+
 
 function Home() {
     return (
@@ -8,13 +11,32 @@ function Home() {
             <div className="Home">
                 <div className="center-content">
                     <div className="h1">
-                        <h1>Hello I'm Chay Tadeo!</h1>
+                        <h1>Doula Chay Tadeo</h1>
                     </div>
-                    <img
-                        src={Chay1}
-                        alt="Welcome Image"
-                        className="Home-Image"
-                    />
+
+                    <div className="Column Container">
+                        <div className="column">
+                            <img
+                                src={Chayy}
+                                alt="Welcome Image"
+                                className="Home-Image"
+                            />
+
+                            <img
+                                src={Chay1}
+                                alt="Welcome Image"
+                                className="Home-Image"
+                            />
+
+                            <img
+                                src={Chay}
+                                alt="Welcome Image"
+                                className="Home-Image"
+                            />
+                        </div>
+                    </div>
+
+
                     <div className="text">
                         <div className="h2">
                             <h2>Full Spectrum Doula</h2>

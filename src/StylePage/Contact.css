@@ -1,16 +1,37 @@
+.Container-container {
+    padding: 10px;
+
+}
+
 .container {
-    margin: auto;
-    width: 60%;
+    margin: 0 auto;
+    width: 65%;
     text-align: left;
     border: solid;
     border-color: purple;
     color: rgb(0, 0, 0);
-    border-radius: 5px;
+    border-radius: 55px;
     background-color: rgb(246, 199, 255);
-    padding: 20px;
+    overflow: hidden;
+    text-align: left;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+
+
+.contactme {
+    width: 100%;
 
 }
 
+.contactme img {
+    overflow: hidden;
+    width: 100%;
+}
+
+
+/* Default styles for input[type=text], select, textarea */
 input[type=text],
 select,
 textarea {
@@ -18,30 +39,53 @@ textarea {
     color: black;
     background-color: white;
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border: 1px solid purple;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 6px;
+    margin-top: 0px;
     margin-bottom: 16px;
-    resize: vertical
+    resize: vertical;
 }
 
+/* Default styles for .SubmitButton */
 .SubmitButton {
     font-size: 16px;
     background-color: purple;
+    text-align: center;
     color: white;
-    padding: 1px;
-    border: solid;
-    border-color: black;
-    border-radius: 2px;
+    border-radius: 30px;
+    padding-bottom: 1px;
     cursor: pointer;
     border: solid;
     width: 100px;
-    height: 35px;
-    margin: 0 auto;
+    margin: 5px auto;
 }
 
 .SubmitButton:hover {
     background-color: rgb(246, 199, 255);
+    border-color: purple;
 }
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        /* Reduce the width for smaller screens */
+    }
+
+    input[type=text],
+    select,
+    textarea {
+        font-size: 14px;
+        /* Adjust font size for better readability on small screens */
+    }
+
+    .SubmitButton {
+        font-size: 14px;
+        /* Adjust font size for better readability on small screens */
+    }
+}
+
+/* Additional media queries for other screen sizes if needed */
